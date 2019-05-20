@@ -67,7 +67,7 @@ def sendtext(contact):
         server.login(email, password)
 
         
-        msg = "Boondocks 35" #INSERT MESSAGE HERE
+        msg = " " #INSERT MESSAGE HERE
         server.sendmail(email, contact, msg)
     except smtplib.SMTPAuthenticationError as e:
         print("\nERROR: Turn ON google's 'Allow Less Secure Apps' for your email account\n\n", e)
